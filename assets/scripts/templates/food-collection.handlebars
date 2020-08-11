@@ -1,0 +1,53 @@
+{{#each foods as |food|}}
+  {{log food}}
+  <section class="food-collection" data-id="{{food.id}}">
+
+    <h4>
+      {{food.name}}
+    </h4>
+    <h6>{{food.altOption}}</h6>
+    <h5>type: {{food.location}}</h5>
+    <h5>soil: {{food.soil}}</h5>
+
+    <button class="update-food" type="button" data-id="{{food._id}}" data-toggle="modal" data-target="#updateFood-{{food._id}}">update</button>
+
+    <div class="modal fade" id="updateFood-{{food._id}}" tabindex="-1" role="dialog" aria-labelledby="updateFoodLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">update food</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" data-id="{{food._id}}">
+
+            <p id="modal-message"></p>
+
+            <form class="update-food" data-id="{{food._id}}">
+              <h6>name:
+                <input name="food[name]" placeholder="{{food.name}}" type="text">
+              </h6>
+              <h6>alternative option:
+                <input name="food[altOption]" placeholder="{{food.altOption}}" type="text">
+              </h6>
+              <h6>where to purchase:
+                <input name="food[location]" placeholder="{{food.location}}" type="text">
+              </h6>
+              <h6>soil:
+                <input name="food[category]" placeholder="{{food.category}}" type="text">
+              </h6>
+              <div class="modal-footer">
+                <button type="submit" class="btn save-changes" data-id="{{food._id}}">save changes</button>
+              </div>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-danger destroy-food" data-id="{{food._id}}">remove</button>
+
+  </section>
+
+{{/each}}

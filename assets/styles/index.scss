@@ -1,0 +1,65 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+* {
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+
+#message {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  border-width: thin;
+  border-radius: 90px;
+}
+
+body {
+  background-color: #d2b48c;
+  font-color: #ebd8bd;
+  text-align: center;
+  align-items: center;
+  margin: 2%;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+div {
+  padding: 10px;
+
+  > form {
+    padding: 10px;
+  }
+  }
+
+h1 {
+  font-weight: lighter;
+  letter-spacing: 4px;
+  position: sticky;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 20px;
+  letter-spacing: 3px;
+  position: sticky;
+}
+
+.authenticated {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.unauthenticated {
+  align-items: center;
+  display: flex;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
