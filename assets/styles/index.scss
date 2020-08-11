@@ -1,8 +1,6 @@
 
 @import '~bootstrap/scss/bootstrap';
 
-$text-color: #F7EED2;
-
 * {
   font-weight: lighter;
   letter-spacing: 2px;
@@ -21,7 +19,7 @@ button {
 body {
   font-family: times new roman;
   background-color: #d2b48c;
-  font-color: #ebd8bd;
+  text-color: #ebd8bd;
   text-align: center;
   align-items: center;
   margin: 2%;
