@@ -8,15 +8,14 @@ const indexFoodsSuccess = (data, hideMessage) => {
   const showFoodsHtml = showFoodsTemplate({ foods: data.foods })
 
   if (!hideMessage) {
-    // if no foods in collection:
+    // if no existing foods:
     if (data.foods.length === 0) {
-      $('#message').text('no food entries in your collection yet!')
+      $('#message').text('no food entries in your database yet!')
     } else {
       $('#message').text('look at all your delicious food entries!')
     }
   }
 
-  // Hide "outdated" food collection:
   $('#content').empty()
   $('#content').append(showFoodsHtml)
   $('#content').show()
@@ -29,7 +28,7 @@ const indexFoodsFailure = () => {
 const createFoodSuccess = (data) => {
   const showFoodsHtml = showFoodsTemplate({ foods: data.foods })
 
-  $('#message').text('new food entry added to collection!')
+  $('#message').text('new food entry added to database!')
   $('#content').append(showFoodsHtml)
 
   $('form').trigger('reset')
@@ -59,7 +58,7 @@ const updateFoodSuccess = (foodId) => {
 }
 
 const updateFoodFailure = () => {
-  $('#message').text('entry update failed! please try again.')
+  $('#message').text('entry update unsuccessful! please try again.')
 }
 
 module.exports = {
