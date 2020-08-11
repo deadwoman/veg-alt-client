@@ -1,12 +1,11 @@
-# Vegetarian Alternatives API
+# Vegetarian Food Alternatives
 A database that keeps track of vegan/vegetarian food alternatives. The user will be able to keep track of what the substitute food is, whether it's vegan or vegetarian, and where to buy it.
 
 # Important Links
-[Client Repository](https://github.com/deadwoman/veg-alt-frontend)
-
-[Deployed Client](https://github.com/deadwoman/veg-alt-frontend)
-
-[Deployed API](https://github.com/deadwoman/veg-alt-api)
+[Client Repository](https://github.com/deadwoman/veg-alt-client)
+[Deployed Client](https://deadwoman.github.io/veg-alt-client/)
+[API Repository](https://github.com/deadwoman/veg-atl-api)
+[Deployed API](hhttps://shrouded-oasis-07530.herokuapp.com/)
 
 # Planning Story
 Day 1: Wrap Up Planning, Begin API & Client Setup
@@ -30,6 +29,7 @@ Day 4: Final Edits
 - jQuery
 - Javascript
 - Handlebars
+- Ajax
 
 # Wireframes:
 
