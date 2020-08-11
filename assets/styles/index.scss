@@ -65,16 +65,6 @@ h2 {
   position: relative;
 }
 
-@media screen and (max-width: 800px) {
-  .column {
-    width: 100%;
-  }
-}
-
-.food-collection {
-  background: #ebd8bd;
-  border: .1px;
-  border-color: $ff;
-  border-radius: 8px;
-  border-style: solid;
+.create-food {
+  width: 120%;
 }
