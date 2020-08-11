@@ -13,7 +13,9 @@
     </head>
     <body>
       <h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Vegetarian.svg/720px-Vegetarian.svg.png" alt="leaf logo" style="height:32px;"> vegetarian alternatives database </h1>
-
+<br>
+Meat eaters, pescatarians, vegetarians, and vegans alike: Use me as a shopping list in-store, or just as a simple reminder! There's never a bad time to explore! :)
+<br>
       <p id="message"></p>
 
       <div class="unauthenticated" id="unauthenticated">
@@ -49,7 +51,9 @@
         </form>
 <br>
         <h2>database</h2>
-        <form id="create-food">
+        <div class="column">
+          <form class="create-food" id="create-food">
+      <!--  <form id="create-food"> -->
           food
           <br>
           <input name="food[name]" placeholder="ex: burger meat" type="text">
@@ -69,10 +73,10 @@
           <button type="submit"> + new entry</button>
         </form>
 
-        <button id="index-foods">see all food entries</button>
-
         <main>
-          <div id="content" class="content"></div>
+        <div class="column">
+        <button id="index-foods">see all food entries</button>
+        <div id="content" class="content"></div>
         </main>
 
       </div>

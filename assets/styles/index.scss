@@ -65,6 +65,55 @@ h2 {
   position: relative;
 }
 
+.column {
+  // display: flex;
+  // flex-flow: row nowrap;
+  float: left;
+  padding: 10px;
+  width: 50%;
+}
+
 .create-food {
-  width: 120%;
+  margin-left: 200px;
+  width: 50%;
+}
+
+#index-foods {
+  margin: 15px;
+  margin-bottom: 5px;
+  margin-left: 225px;
+}
+
+.input {
+  border: 2px lighter;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 8px;
+  transition: .5s ease;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.update-food {
+  margin-left: 45px;
+}
+
+.food-collection {
+  background: #ebd8bd;
+  border: .1px;
+  border-color: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  margin: 10px;
+  margin-left: 150px;
+  padding: 5px;
+  position: relative;
+  width: 50%;
 }
