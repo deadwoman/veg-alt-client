@@ -81,9 +81,10 @@ h2 {
 #index-foods {
   margin: 15px;
   margin-bottom: 5px;
-  margin-left: 225px;
+  margin-left: 25px;
 }
 
+// form field inputs for sign-up, sign-in, create plant
 .input {
   border: 2px lighter;
   box-sizing: border-box;
@@ -101,19 +102,14 @@ h2 {
   }
 }
 
-.update-food {
-  margin-left: 45px;
-}
-
 .food-collection {
   background: #ebd8bd;
   border: .1px;
-  border-color: #ffffff;
+  border-color: $ff;
   border-radius: 8px;
   border-style: solid;
   margin: 10px;
-  margin-left: 350px;
+  margin-left: 150px;
   padding: 5px;
   position: relative;
   width: 50%;
-}
