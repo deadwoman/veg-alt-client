@@ -73,29 +73,6 @@ h2 {
   width: 50%;
 }
 
-.create-food {
-  margin-left: 200px;
-  width: 50%;
-}
-
-#index-foods {
-  margin: 15px;
-  margin-bottom: 5px;
-  margin-left: 25px;
-}
-
-// form field inputs for sign-up, sign-in, create plant
-.input {
-  border: 2px lighter;
-  box-sizing: border-box;
-  font-size: 14px;
-  margin-bottom: 20px;
-  outline: none;
-  padding: 8px;
-  transition: .5s ease;
-  width: 100%;
-}
-
 @media screen and (max-width: 800px) {
   .column {
     width: 100%;
@@ -113,3 +90,4 @@ h2 {
   padding: 5px;
   position: relative;
   width: 50%;
+}
