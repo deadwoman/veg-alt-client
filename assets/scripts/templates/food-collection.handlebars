@@ -2,12 +2,12 @@
   {{log food}}
   <section class="food-collection" data-id="{{food.id}}">
 
-    <h4>
+    <h2>
       {{food.name}}
-    </h4>
-    <h6>{{food.altOption}}</h6>
-    <h5>type: {{food.location}}</h5>
-    <h5>category: {{food.category}}</h5>
+    </h2>
+    <h6>alternative: {{food.altOption}}</h6>
+    <h6>where to purchase: {{food.location}}</h6>
+    <h6>type: {{food.veg}}</h6>
 
     <button class="update-food" type="button" data-id="{{food._id}}" data-toggle="modal" data-target="#updateFood-{{food._id}}">update</button>
 
@@ -46,7 +46,7 @@
     </div>
   </div>
 
-  <button type="button" class="btn btn-danger destroy-food" data-id="{{food._id}}">remove</button>
+  <button type="button" class="btn btn-danger destroy-food" data-id="{{food._id}}"> - remove</button>
 
   </section>
 

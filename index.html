@@ -13,8 +13,9 @@
     </head>
     <body>
       <h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Vegetarian.svg/720px-Vegetarian.svg.png" alt="leaf logo" style="height:32px;"> vegetarian alternatives database </h1>
-<br>
-Meat eaters, pescatarians, vegetarians, and vegans alike: Use me as a shopping list in-store, or just as a simple reminder! There's never a bad time to explore! :)
+
+Meat eaters, pescatarians, vegetarians, and vegans alike: Use me as a shopping list in-store, <br>
+or just as a simple reminder! There's never a bad time to explore! :)
 <br>
       <p id="message"></p>
 
@@ -43,15 +44,7 @@ Meat eaters, pescatarians, vegetarians, and vegans alike: Use me as a shopping l
         </form>
         <br>
 
-        <h2>update password</h2>
-        <form id="change-password">
-          <input name="passwords[old]" placeholder="old password" type="password"><br>
-          <input name="passwords[new]" placeholder="new password" type="password"><br>
-          <button type="submit">change password</button>
-        </form>
-<br>
-        <h2>database</h2>
-        <div class="column">
+        <h4>database</h4>  <div class="column">
           <form class="create-food" id="create-food">
       <!--  <form id="create-food"> -->
           food
@@ -72,12 +65,20 @@ Meat eaters, pescatarians, vegetarians, and vegans alike: Use me as a shopping l
           <br>
           <button type="submit"> + new entry</button>
         </form>
-
+<hr size=3>
         <main>
         <div class="column">
         <button id="index-foods">see all food entries</button>
         <div id="content" class="content"></div>
         </main>
+<hr size=3>
+        <h4>update password</h4>
+        <form id="change-password">
+          <input name="passwords[old]" placeholder="old password" type="password">
+          <input name="passwords[new]" placeholder="new password" type="password"><br>
+          <button type="submit">change password</button>
+        </form>
+        <br>
 
       </div>
 
