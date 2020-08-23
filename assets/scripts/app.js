@@ -14,7 +14,7 @@ $(() => {
 
   // Food Listeners:
   $('#create-food').on('submit', foodEvents.onCreateFood)
-  $('#index-foods').on('click', foodEvents.onIndexFood)
+  $('#index-foods').on('click', foodEvents.onIndexFoods)
   $('.content').on('click', '.btn-danger', foodEvents.onDestroyFood)
   $('.content').on('submit', '.update-food', foodEvents.onUpdateFood)
 })

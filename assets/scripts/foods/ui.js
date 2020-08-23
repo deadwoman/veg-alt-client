@@ -2,7 +2,6 @@
 
 // Require:
 const showFoodsTemplate = require('../templates/food-collection.handlebars')
-// const store = require('../store')
 
 const indexFoodsSuccess = (data, hideMessage) => {
   const showFoodsHtml = showFoodsTemplate({ foods: data.foods })
@@ -12,7 +11,7 @@ const indexFoodsSuccess = (data, hideMessage) => {
     if (data.foods.length === 0) {
       $('#message').text('no food entries in your database yet!')
     } else {
-      $('#message').text('look at all your delicious food entries!')
+      $('#message').text('successfully viewing food entries!')
     }
   }
 
