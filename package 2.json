@@ -1,0 +1,51 @@
+{
+  "name": "ga-wdi-boston.browser-template",
+  "version": "0.0.3",
+  "private": true,
+  "license": {
+    "software": "GNU GPLv3",
+    "content": "CC­BY­NC­SA 4.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "clone": "^2.1.1",
+    "css-loader": "^0.28.10",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^1.1.11",
+    "grunt": "^1.0.4",
+    "grunt-eslint": "^22.0.0",
+    "grunt-jsonlint": "^2.0.0",
+    "grunt-mocha-phantomjs": "^4.0.0",
+    "grunt-sass-lint": "^0.2.4",
+    "grunt-shell": "^2.1.0",
+    "grunt-webpack": "^3.0.2",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "load-grunt-config": "^3.0.1",
+    "node-libs-browser": "^2.1.0",
+    "node-sass": "^4.7.2",
+    "on-build-webpack": "^0.1.0",
+    "opn": "^5.4.0",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "time-grunt": "^2.0.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.5.1",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
