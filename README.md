@@ -3,8 +3,11 @@ A database that keeps track of vegan/vegetarian food alternatives. The user will
 
 # Important Links
 [Client Repository](https://github.com/deadwoman/veg-alt-client)
+
 [Deployed Client](https://deadwoman.github.io/veg-alt-client/)
+
 [API Repository](https://github.com/deadwoman/veg-atl-api)
+
 [Deployed API](https://shrouded-oasis-07530.herokuapp.com/)
 
 # Planning Story
