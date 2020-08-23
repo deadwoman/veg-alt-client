@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> //vegetarian alternatives database </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body>
+      <h1> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Vegetarian.svg/720px-Vegetarian.svg.png" alt="leaf logo" style="height:32px;"> vegetarian alternatives database </h1>
+
+Meat eaters, pescatarians, vegetarians, and vegans alike: Use me as a shopping list in-store, <br>
+or just as a simple reminder! There's never a bad time to explore! :)
+<br>
+      <p id="message"></p>
+
+      <div class="unauthenticated" id="unauthenticated">
+        <h2>new user</h2>
+        <form class="sign-up" id="sign-up">
+          <input name="credentials[email]" placeholder="e-mail" type="text"><br>
+          <input name="credentials[password]" placeholder="password" type="password"><br>
+          <input name="credentials[password_confirmation]" placeholder="confirm password" type="password"><br>
+          <button type="submit">sign up</button>
+        </form>
+
+        <br>
+
+        <h2>returning user</h2>
+        <form id="sign-in">
+        <input name="credentials[email]" placeholder="e-mail" type="text"><br>
+        <input name="credentials[password]" placeholder="password" type="password"><br>
+        <button type="submit">sign in</button>
+      </form>
+      </div>
+
+      <div class="authenticated" id="authenticated">
+        <form id="sign-out">
+          <button type="submit">sign out</button>
+        </form>
+        <br>
+
+        <h4>database</h4>  <div class="column">
+          <form class="create-food" id="create-food">
+      <!--  <form id="create-food"> -->
+          food
+          <br>
+          <input name="food[name]" placeholder="ex: burger meat" type="text">
+          <br>
+          alternative
+          <br>
+          <input name="food[altOption]" placeholder="ex: impossible meat" type="text">
+          <br>
+          where to purchase
+          <br>
+          <input name="food[location]" placeholder="ex: target, trader joes" type="text">
+          <br>
+          vegetarian/vegan/dairy-free
+          <br>
+          <input name="food[veg]" placeholder="vegan/vegetarian/df" type="text">
+          <br>
+          <button type="submit"> + new entry</button>
+        </form>
+<hr size=3>
+        <main>
+        <div class="column">
+    <!--    <button id="index-foods">see all food entries</button> -->
+        <div id="content" class="content"></div>
+        </main>
+<hr size=3>
+        <h4>update password</h4>
+        <form id="change-password">
+          <input name="passwords[old]" placeholder="old password" type="password">
+          <input name="passwords[new]" placeholder="new password" type="password"><br>
+          <button type="submit">change password</button>
+        </form>
+        <br>
+
+      </div>
+
+    </body>
+</html>
